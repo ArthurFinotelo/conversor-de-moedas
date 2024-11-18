@@ -17,7 +17,7 @@
 
         <label>
             Converter <b>de</b>
-            <select class="currency-convert-select" name="Moeda1" id="select1">
+            <select class="currency-convert-select" name="Currency1" id="select1">
                 <option value="real">R$ Real Brasileiro</option>
                 <option value="dolar">US$ Dólar Americano</option>
                 <option value="euro">€ Euro</option>
@@ -26,7 +26,7 @@
 
         <label>
             Converter <b>para</b>
-            <select class="currency-select" name="Moeda2" id="select2">
+            <select class="currency-select" name="Currency2" id="select2">
                 <option value="dolar">US$ Dólar Americano</option>
                 <option value="euro">€ Euro</option>
                 <option value="real">R$ Real Brasileiro</option>
@@ -42,16 +42,16 @@
 
         <section>
             <div class="currency-box">
-                <img src="./assets/real.png" alt="moeda-a-conveter">
-                <p class="currency">Real</p>
+                <img class="currency-img" src="./assets/real.png" alt="moeda-a-conveter">
+                <p class="currency" id="currency-name">Real</p>
                 <p class="currency-value-to-convert">R$ 0,00</p>
             </div>
 
             <img class="seta" src="./assets/seta.png" alt="seta">
 
             <div class="currency-box">
-                <img class="currency-img" src="./assets/dolar.png" alt="moeda-convertida">
-                <p class="currency" id="currency-name">Dólar Americano</p>
+                <img class="currency2-img" src="./assets/dolar.png" alt="moeda-convertida">
+                <p class="currency" id="currency2-name">Dólar Americano</p>
                 <p class="currency-value">US$ 0.00</p>
             </div>
 
