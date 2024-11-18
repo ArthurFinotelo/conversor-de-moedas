@@ -109,3 +109,13 @@ section {
     font-weight: 700;
     color: #555555;
 }
+
+@media(max-width: 400px) {
+    .logo-dinheiro {
+        display: none;
+    }
+
+    body {
+        background-color: #F4F4F4;
+    }
+}
